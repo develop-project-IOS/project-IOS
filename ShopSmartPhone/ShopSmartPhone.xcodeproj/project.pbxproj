@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		514DBF9D24DFDE4000A69E57 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514DBF9C24DFDE4000A69E57 /* HistoryTableViewController.swift */; };
+		514DBF9F24DFDEB600A69E57 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514DBF9E24DFDEB600A69E57 /* HistoryModel.swift */; };
 		7B2B90C124BA0C44007378CE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2B90C024BA0C44007378CE /* HomeViewController.swift */; };
 		7B4A0AC124B9EA81008708DF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4A0AC024B9EA81008708DF /* MenuViewController.swift */; };
 		7BA50A3424B990240000CC0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA50A3324B990240000CC0F /* AppDelegate.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		514DBF9C24DFDE4000A69E57 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		514DBF9E24DFDEB600A69E57 /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
 		7B2B90C024BA0C44007378CE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7B4A0AC024B9EA81008708DF /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		7BA50A3024B990240000CC0F /* ShopSmartPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopSmartPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,8 +114,10 @@
 				7BA50A3C24B990260000CC0F /* Assets.xcassets */,
 				7BA50A3E24B990260000CC0F /* LaunchScreen.storyboard */,
 				7BA50A4124B990260000CC0F /* Info.plist */,
+				514DBF9C24DFDE4000A69E57 /* HistoryTableViewController.swift */,
 				7B4A0AC024B9EA81008708DF /* MenuViewController.swift */,
 				7B2B90C024BA0C44007378CE /* HomeViewController.swift */,
+				514DBF9E24DFDEB600A69E57 /* HistoryModel.swift */,
 			);
 			path = ShopSmartPhone;
 			sourceTree = "<group>";
@@ -267,8 +273,10 @@
 			files = (
 				7B2B90C124BA0C44007378CE /* HomeViewController.swift in Sources */,
 				7BA50A3824B990240000CC0F /* ViewController.swift in Sources */,
+				514DBF9D24DFDE4000A69E57 /* HistoryTableViewController.swift in Sources */,
 				7BA50A3424B990240000CC0F /* AppDelegate.swift in Sources */,
 				7BA50A3624B990240000CC0F /* SceneDelegate.swift in Sources */,
+				514DBF9F24DFDEB600A69E57 /* HistoryModel.swift in Sources */,
 				7B4A0AC124B9EA81008708DF /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
