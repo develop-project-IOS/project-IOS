@@ -291,7 +291,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Frg-dY-0Jc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-187" y="1846"/>
+            <point key="canvasLocation" x="35" y="1771"/>
+        </scene>
+        <!--BuyStoryboard-->
+        <scene sceneID="MOH-lY-Oqf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="BuyStoryboard" id="ddO-EY-2H7" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="hKb-ez-Otl"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ySy-89-cfB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2225" y="146"/>
         </scene>
         <!--Home-->
         <scene sceneID="nIz-9l-O6x">
@@ -340,6 +350,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ddO-EY-2H7" kind="show" trigger="accessoryAction" id="EBx-EH-JFU"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

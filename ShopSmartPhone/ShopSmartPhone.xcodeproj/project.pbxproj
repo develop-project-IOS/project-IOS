@@ -12,7 +12,10 @@
 		7B2B90C124BA0C44007378CE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2B90C024BA0C44007378CE /* HomeViewController.swift */; };
 		7B7D146F24E068EA00EB2E6F /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D146E24E068EA00EB2E6F /* Device.swift */; };
 		7B7D147124E0690600EB2E6F /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D147024E0690600EB2E6F /* DeviceModel.swift */; };
-		7B7D147424E06AD100EB2E6F /* DeviceSource in Resources */ = {isa = PBXBuildFile; fileRef = 7B7D147324E06AD100EB2E6F /* DeviceSource */; };
+		7B7D147824E07A4300EB2E6F /* BuyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7D147724E07A4300EB2E6F /* BuyStoryboard.storyboard */; };
+		7B7D147A24E07A9900EB2E6F /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D147924E07A9900EB2E6F /* BuyViewController.swift */; };
+		7B7D147C24E07F7400EB2E6F /* DeviceSource in Resources */ = {isa = PBXBuildFile; fileRef = 7B7D147B24E07F7400EB2E6F /* DeviceSource */; };
+		7B7D147E24E0843700EB2E6F /* CartStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7D147D24E0843700EB2E6F /* CartStoryboard.storyboard */; };
 		7BA50A3424B990240000CC0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA50A3324B990240000CC0F /* AppDelegate.swift */; };
 		7BA50A3624B990240000CC0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA50A3524B990240000CC0F /* SceneDelegate.swift */; };
 		7BA50A3824B990240000CC0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA50A3724B990240000CC0F /* ViewController.swift */; };
@@ -46,7 +49,10 @@
 		7B2B90C024BA0C44007378CE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7B7D146E24E068EA00EB2E6F /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		7B7D147024E0690600EB2E6F /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
-		7B7D147324E06AD100EB2E6F /* DeviceSource */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DeviceSource; path = ../../../../../../Desktop/DeviceSource; sourceTree = "<group>"; };
+		7B7D147724E07A4300EB2E6F /* BuyStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BuyStoryboard.storyboard; sourceTree = "<group>"; };
+		7B7D147924E07A9900EB2E6F /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		7B7D147B24E07F7400EB2E6F /* DeviceSource */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DeviceSource; path = ../../../../../../Desktop/DeviceSupport/DeviceSource; sourceTree = "<group>"; };
+		7B7D147D24E0843700EB2E6F /* CartStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CartStoryboard.storyboard; sourceTree = "<group>"; };
 		7BA50A3024B990240000CC0F /* ShopSmartPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopSmartPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA50A3324B990240000CC0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BA50A3524B990240000CC0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,7 +106,7 @@
 		7B7D147224E06AA500EB2E6F /* DeviceSupport */ = {
 			isa = PBXGroup;
 			children = (
-				7B7D147324E06AD100EB2E6F /* DeviceSource */,
+				7B7D147B24E07F7400EB2E6F /* DeviceSource */,
 			);
 			path = DeviceSupport;
 			sourceTree = "<group>";
@@ -129,7 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				7B7D146D24E068A700EB2E6F /* Model */,
-				7B2B90C024BA0C44007378CE /* HomeViewController.swift */,
 				7BA50A3324B990240000CC0F /* AppDelegate.swift */,
 				7BA50A3524B990240000CC0F /* SceneDelegate.swift */,
 				7BA50A3724B990240000CC0F /* ViewController.swift */,
@@ -139,9 +144,11 @@
 				7BA50A4124B990260000CC0F /* Info.plist */,
 				7B7D147224E06AA500EB2E6F /* DeviceSupport */,
 				514DBF9C24DFDE4000A69E57 /* HistoryTableViewController.swift */,
-				7B4A0AC024B9EA81008708DF /* MenuViewController.swift */,
 				7B2B90C024BA0C44007378CE /* HomeViewController.swift */,
 				514DBF9E24DFDEB600A69E57 /* HistoryModel.swift */,
+				7B7D147724E07A4300EB2E6F /* BuyStoryboard.storyboard */,
+				7B7D147924E07A9900EB2E6F /* BuyViewController.swift */,
+				7B7D147D24E0843700EB2E6F /* CartStoryboard.storyboard */,
 			);
 			path = ShopSmartPhone;
 			sourceTree = "<group>";
@@ -269,7 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BA50A4024B990260000CC0F /* LaunchScreen.storyboard in Resources */,
-				7B7D147424E06AD100EB2E6F /* DeviceSource in Resources */,
+				7B7D147824E07A4300EB2E6F /* BuyStoryboard.storyboard in Resources */,
+				7B7D147C24E07F7400EB2E6F /* DeviceSource in Resources */,
+				7B7D147E24E0843700EB2E6F /* CartStoryboard.storyboard in Resources */,
 				7BA50A3D24B990260000CC0F /* Assets.xcassets in Resources */,
 				7BA50A3B24B990240000CC0F /* Main.storyboard in Resources */,
 			);
@@ -298,14 +307,12 @@
 			files = (
 				7B2B90C124BA0C44007378CE /* HomeViewController.swift in Sources */,
 				7BA50A3824B990240000CC0F /* ViewController.swift in Sources */,
-
+				7B7D147A24E07A9900EB2E6F /* BuyViewController.swift in Sources */,
 				7B7D147124E0690600EB2E6F /* DeviceModel.swift in Sources */,
-
 				514DBF9D24DFDE4000A69E57 /* HistoryTableViewController.swift in Sources */,
 				7BA50A3424B990240000CC0F /* AppDelegate.swift in Sources */,
 				7B7D146F24E068EA00EB2E6F /* Device.swift in Sources */,
 				7BA50A3624B990240000CC0F /* SceneDelegate.swift in Sources */,
-
 				514DBF9F24DFDEB600A69E57 /* HistoryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
