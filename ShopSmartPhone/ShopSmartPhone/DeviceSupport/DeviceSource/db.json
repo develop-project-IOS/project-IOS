@@ -1,0 +1,105 @@
+[
+  {
+    "name": "Iphone 11 Promax 256gb Black",
+    "price": "11000000",
+    "image": "DeviceSource/iphone-11-pro-max-256gb-black-400x400.jpg",
+    "type": "iphone"
+  },
+  {
+    "name": "Iphone Xs max Gold",
+    "price": "11000000",
+    "image": "DeviceSource/iphone-xs-max-gold-400x400.jpg",
+    "type": "iphone"
+  },
+  {
+    "name": "Iphone 11 128gb Green",
+    "price": "11000000",
+    "image": "DeviceSource/iphone-11-128gb-green-400x400.jpg",
+    "type": "iphone"
+  },
+  {
+    "name": "Iphone 8 plus",
+    "price": "11000000",
+    "image": "DeviceSource/iphone-8-plus-hh-600x600-400x400.jpg",
+    "type": "iphone"
+  },
+  {
+    "name": "Iphone 11 red",
+    "price": "11000000",
+    "image": "DeviceSource/iphone-11-red-400x400.jpg",
+    "type": "iphone"
+  },
+  {
+    "name": "Iphone 7 plus 32gb gold",
+    "price": "11000000",
+    "image": "DeviceSource/iphone-7-plus-32gb-gold-600x600-400x400.jpg",
+    "type": "iphone"
+  },
+  {
+    "name": "Iphone xs gold",
+    "price": "11000000",
+    "image": "DeviceSource/iphone-xs-gold-600x600-2-400x400.jpg",
+    "type": "iphone"
+  },
+  {
+    "name": "Iphone 11 Promax Green",
+    "price": "11000000",
+    "image": "DeviceSource/iphone-11-pro-max-green-400x400.jpg",
+    "type": "iphone"
+  },
+  {
+    "name": "Ipad Pro 12.9 inch WIFI 128gb 2020 Gray",
+    "price": "11000000",
+    "image": "DeviceSource/ipad-pro-12-9-inch-wifi-128gb-2020-xam-600x600-1-200x200.jpg",
+    "type": "ipad"
+  },
+  {
+    "name": "Ipad Pro 10.2 inch WIFI 128gb 2019 Siliver",
+    "price": "11000000",
+    "image": "DeviceSource/ipad-10-2-inch-wifi-128gb-2019-silver-400x400.jpg",
+    "type": "ipad"
+  },
+  {
+    "name": "Ipad pro 11inch wifi cellular 128gb 2020",
+    "price": "11000000",
+    "image": "DeviceSource/ipad-pro-11-inch-wifi-cellular-128gb-2020-bac-600x600-200x200.jpg",
+    "type": "ipad"
+  },
+  {
+    "name": "Ipad air 105inch wifi 2019 gold",
+    "price": "11000000",
+    "image": "DeviceSource/ipad-air-105-inch-wifi-2019-gold-400x400.jpg",
+    "type": "ipad"
+  },
+  {
+    "name": "Apple macbook air 2020 vantay",
+    "price": "11000000",
+    "image": "DeviceSource/apple-macbook-air-2020-vantay-220173-400x400.jpg",
+    "type": "macbook"
+  },
+  {
+    "name": "Apple macbook air mqd32sa a i5 5350u",
+    "price": "11000000",
+    "image": "DeviceSource/apple-macbook-air-mqd32sa-a-i5-5350u-400x400.jpg",
+    "type": "macbook"
+  },
+  {
+    "name": "Apple macbook pro touch 2020 i5 mwp72sa",
+    "price": "11000000",
+    "image": "DeviceSource/apple-macbook-pro-touch-2020-i5-mwp72sa-a-221914-400x400.jpg",
+    "type": "macbook"
+  },
+  {
+    "name": "Apple macbook pro touch mr932sa 2018",
+    "price": "11000000",
+    "image": "DeviceSource/apple-macbook-pro-touch-mr932sa-a-2018-thumb-1-400x400.jpg",
+    "type": "macbook"
+  },
+  {
+    "name": "Macbook pro touch 2020 i5 14ghz 8gb 256gb mxk32sa",
+    "price": "11000000",
+    "image": "DeviceSource/macbook-pro-touch-2020-i5-14ghz-8gb-256gb-mxk32sa-400x400.jpg",
+    "type": "macbook"
+  }
+]
+	
